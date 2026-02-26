@@ -11,9 +11,11 @@ function App() {
   ];
   if (exerciseChoice) {
     if (exerciseChoice.exerciseType === "repetition") {
-      return <RepetitionExercise />;
+      return (<RepetitionExercise />
+      );
     } else {
-      return <DurationExercise />;
+      return (<DurationExercise />
+      );
     }
   }
 
