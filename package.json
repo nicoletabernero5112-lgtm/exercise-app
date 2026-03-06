@@ -1,8 +1,8 @@
 {
   "name": "exercise-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://<github-username>.github.io/<project-repo>",
+  "private": false,
+  "homepage": "https://<nicoletabernero5112-lgtm>.github.io/<exercise-app>",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
