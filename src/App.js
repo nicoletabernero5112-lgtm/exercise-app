@@ -11,7 +11,7 @@ function App() {
     { exerciseName: "Running", exerciseType: "duration" },
     { exerciseName: "Yoga", exerciseType: "yoga" },
   ];
-  if (exerciseChoice) {
+
     if (exerciseChoice.exerciseType === "repetition") {
       return (<RepetitionExercise />
       );
@@ -22,7 +22,7 @@ function App() {
       return (<FlexibilityExercise />
       );
     }
-  }
+  
 
   return (
   <div>
